@@ -1,3 +1,12 @@
-Welcome to the tutorial for model usage. Primarly, it is useful to clone this repository to your local machine. Secondly, you need to fire up your 
-favourite python editor, but it can't be a notebook IDE (e.g. Kaggle, Jupyter), because displaying images with opencv does not work in these.
-Then, you have to install all packages from requirements.txt. As you are done with that, it is time to read through the python source code. There you will find the rest of the tutorial.
+# Tutorial-for-model-usage. 
+1. Clone this repository to your local machine.
+2. Install all packages from requirements.txt with:
+```
+$ pip install -r requirements.txt
+```
+3. Open terminal or CMD
+4. Move to directory where is the copy of repository located
+5. For prediction run:
+```
+$ .\model_use.py -in path/to/your/input/image.jpg -out path/to/destination/prediction.jpg
+```
